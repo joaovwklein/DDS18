@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <div>
-        <h2>Dados pessoais</h2>
+    <div><fieldset>
+        <legend>Dados pessoais</legend>
         <label for="nome">Nome:</label>
         <input type="text" name="nome">
         <br><br>
@@ -25,11 +25,13 @@
             <option value="Rio de Janeiro">Rio de Janeiro</option>
             <option value="Minas Gerais">Minas Gerais</option>
         </select>
+        </fieldset>
     </div>
     <br>
     <br>
     <hr>
-        <h2>Dados profissionais</h2>
+    <div> <fieldset>
+        <Legend><h2>Dados profissionais</h2></Legend>
         <label for="natureza do cargo">Natureza do cargo</label>
         <br>
         <input type="radio" name="cargo" value="Gerencia">Gerenciamento
@@ -51,7 +53,7 @@
         <br><br>
         <input type="submit"value="Enviar">
         <input type="reset" value="Limpar">
-        
+    </fieldset>
 
     </div>
 </body>

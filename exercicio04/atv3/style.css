@@ -1,0 +1,21 @@
+#fonte1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+#fonte2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22;
+    color: green;
+}
+#fonte3{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20;
+    color: blue;
+    font-style: italic;
+}
+#fonte4{
+    color: yellow;
+    font-weight: bold;
+    font-size: 14;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+
+P{
+    background-color: bisque;
+}
+
+#nadireita{
+    text-align: right;
+}
+#centro{
+    text-align: center;
+}
+#justificado{
+    text-align: justify;
+}

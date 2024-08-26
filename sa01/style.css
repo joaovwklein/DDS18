@@ -1,20 +1,23 @@
 body{
     background-color: white;
-    text-align: center;
+    /* text-align: center; */
     font-weight: 500;
     font-size: large;
     box-shadow: 1px 1px 1px black;
     font-family: "PT Sans",sans-serif;
+    
 }
 .cabeçalho{
     background-color: #20388E;
     border: 1px solid black;
     box-shadow:1px 1px 7px black;
 }
-div{
-    
+.cabeçalho > ul> a> li{
+    color: white;
+    padding: 20px;
+    background-color: #2454A0;
+    margin: 30px;
 }
-
 footer{
     background-color: #2454A0;
     color: white;

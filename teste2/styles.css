@@ -1,0 +1,180 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Cores SENAI */
+:root {
+    --azul-principal: rgb(32, 41, 88);
+    --laranja: rgb(251, 89, 9);
+    --amarelo: rgb(243, 171, 21);
+    --azul-claro: rgb(69, 191, 214);
+    --roxo: rgb(81, 31, 158);
+}
+
+/* Header */
+header {
+    background-color: var(--azul-principal);
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Grid para os cursos */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: var(--azul-claro);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.grid-item h2 {
+    margin-bottom: 10px;
+    color: var(--azul-principal);
+}
+
+.grid-item p {
+    margin-bottom: 15px;
+}
+
+.grid-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--laranja);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Formulário de cadastro */
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: var(--azul-principal);
+}
+
+form input,
+form select,
+form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: var(--laranja);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: var(--azul-principal);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Vídeo */
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Responsividade */
+
+/* Telas menores (Tablets e celulares) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Ajuste de padding e fontes para telas menores */
+    .grid-item {
+        padding: 15px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+}
+
+/* Telas muito pequenas (Celulares) */
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Ajuste de padding e fontes para telas pequenas */
+    .grid-item {
+        padding: 10px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    form input,
+    form select,
+    form button {
+        padding: 8px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+}

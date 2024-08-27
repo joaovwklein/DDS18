@@ -1,0 +1,44 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="historia.html">História</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Cadastre-se</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="curso">Curso de Interesse:</label>
+            <select id="curso" name="curso">
+                <option value="mecanica">Técnico em Mecânica</option>
+                <option value="eletrotecnica">Técnico em Eletrotécnica</option>
+                <option value="automacao">Técnico em Automação</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 SENAI - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

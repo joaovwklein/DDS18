@@ -1,33 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: white;
-    /* text-align: center; */
+    /* background-color: white;
+     text-align: center; 
     font-weight: 500;
     font-size: large;
-    box-shadow: 1px 1px 1px black;
-    font-family: "PT Sans",sans-serif;
+    font-family: "PT Sans",sans-serif; */
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    
     
 }
 .cabeçalho{
     background-color: #20388E;
     border: 1px solid black;
     box-shadow:1px 1px 7px black;
+    margin: -9px;
+    padding: 1rem;
 }
 .cabeçalho > ul> a> li{
     color: white;
-    padding: 20px;
+    padding: 10px;
     background-color: #2454A0;
-    margin: 30px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
 }
+.cabeçalho > ul> a> li:hover{
+    background-color: #092757;
+}
+.conteudo{
+    text-align: center;
+    border: 100px 0px 100px 0px;
+    width: 70%;
+    box-shadow: 1px 1px 1px black;
+    
+}
+.lista {
+    background-color: #2454A0;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+.conteudo > ul> li >a{
+    text-decoration: none;
+    background-color: #2454A0;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+.conteudo > ul> li >a:hover{
+    background-color: #092757;
+}
+.cursos > ul>a>li{
+    display: inline;
+}
+
 footer{
     background-color: #2454A0;
     color: white;
     border: 1px solid black;
+    text-align: center;
 }
 
 #rod2{
     background-color: #2D388A;
     box-shadow: 1px 1px 1px black;
-
+    padding: 30px;
 }
 .pt-sans-regular {
     font-family: "PT Sans", sans-serif;

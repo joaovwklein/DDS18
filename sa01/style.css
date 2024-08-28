@@ -30,6 +30,10 @@ header{
     display: inline-block;
     
 }
+img{
+    max-width: 100%;
+  height: auto;
+}
 .navBar > ul> a> li{
     color: white;
     padding: 10px;
@@ -47,10 +51,11 @@ header{
 }
 main{
     min-width: 300px;
-    max-width: 800px;
+    max-width: 1080px;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+
 }
 
 .conteudo{
@@ -64,6 +69,9 @@ main{
     border-radius: 10px;
     color: #fff;
 }
+.conteudo > ul> li{
+    list-style: none;
+}
 .conteudo > ul> li >a{
     text-decoration: none;
     background-color: #2454A0;
@@ -74,8 +82,8 @@ main{
 .conteudo > ul> li >a:hover{
     background-color: #092757;
 }
-.cursos > ul>a>li{
-    display: inline;
+.cursos{
+    display: block;
 }
 
 footer{

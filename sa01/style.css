@@ -11,7 +11,7 @@ body{
     line-height: 1.6;
 
 }
-header{
+/* header{
     position: fixed;
     width: 100%;
     height: 100px;
@@ -22,14 +22,16 @@ header{
     padding: 0 20px;
     z-index: 1000;
     transition: all 0.3s ease;
+} */
+
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgb(32, 41, 173);
 }
-.navBar{
-    background-color:  rgb(32, 41, 173);
-    margin: -9px;
-    padding: 1rem;
-    display: inline-block;
-    
-}
+
 img{
     max-width: 100%;
   height: auto;
@@ -139,4 +141,22 @@ footer{
     nav li {
         margin-right: 0;
     }
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.formulario {
+    
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 80px;
+}
+
+.cursos{
+    padding: 80px 0px 80px 0px;
 }

@@ -71,7 +71,7 @@ main{
 
 .conteudo{
     text-align: center;
-    padding-top: 20%;
+    padding-top: 20px;
     text-align: justify;
     font-family: "Pt Sans",sans-serif;
     
@@ -100,6 +100,12 @@ main{
 }
 .conteudo > ul> li >a:hover{
     background-color: #092757;
+}
+main > h1{
+    color: #2D388A;
+}
+main > h2{
+    color: #2454A0;
 }
 .cursos{
     display: block;
